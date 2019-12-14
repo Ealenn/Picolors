@@ -1,0 +1,29 @@
+{
+  "name": "picolors",
+  "version": "0.1.0",
+  "description": "Microservice/CLI to get prominent colors from an image",
+  "main": "app.js",
+  "scripts": {
+    "cli": "node ./build/cli/app.js",
+    "web": "node ./build/web/app.js",
+    "build": "babel src -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ealenn/Picolors.git"
+  },
+  "author": "Ealenn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ealenn/Picolors/issues"
+  },
+  "homepage": "https://github.com/Ealenn/Picolors#readme",
+  "dependencies": {
+    "node-vibrant": "^3.1.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.7.5"
+  }
+}
