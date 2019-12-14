@@ -1,7 +1,8 @@
 {
-    "plugins": [
-      ["@babel/plugin-transform-modules-commonjs", {
-        "allowTopLevelThis": true
-      }]
-    ]
-  }
+  "presets": ["minify"],
+  "plugins": [
+    ["@babel/plugin-transform-modules-commonjs", {
+      "allowTopLevelThis": true
+    }]
+  ]
+}
